@@ -1,4 +1,4 @@
-import App from "../views/App"
+import HeroOne from "../views/HeroOne/index"
 import NavBar from "../components/NavBar";
 
 const Routes = () => {
@@ -6,7 +6,7 @@ const Routes = () => {
     return (
         <>
             <NavBar />
-            <App />
+            <HeroOne />
         </>
     )
 }
