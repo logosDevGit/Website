@@ -3,6 +3,7 @@ import HeroOne from "../views/HeroOne/index"
 import HeroTwo from "../views/HeroTwo/index"
 import HeroThree from "../views/HeroThree";
 import HeroFour from "../views/HeroFour";
+import HeroFive from "../views/HeroFive";
 
 const Routes = () => {
 
@@ -13,6 +14,7 @@ const Routes = () => {
             <HeroTwo />
             <HeroThree />
             <HeroFour />
+            <HeroFive/>
         </>
     )
 }
