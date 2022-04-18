@@ -1,7 +1,8 @@
+import NavBar from "../components/NavBar";
 import HeroOne from "../views/HeroOne/index"
 import HeroTwo from "../views/HeroTwo/index"
-import NavBar from "../components/NavBar";
 import HeroThree from "../views/HeroThree";
+import HeroFour from "../views/HeroFour";
 
 const Routes = () => {
 
@@ -11,6 +12,7 @@ const Routes = () => {
             <HeroOne />
             <HeroTwo />
             <HeroThree />
+            <HeroFour />
         </>
     )
 }
