@@ -10,6 +10,11 @@ font-family: 'Roboto', sans-serif; - Text
     --tertiary-color: #D74061;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
@@ -17,4 +22,10 @@ h1, h2, h3, h4, h5, h6 {
 
 p, small {
   font-family: 'Roboto', sans-serif;
+}
+
+.wd-cont {
+  max-width: 1028px;
+  margin: 0 auto;
+  height: 100%;
 }
