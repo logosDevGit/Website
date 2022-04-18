@@ -1,6 +1,6 @@
 import './styles.css';
 
-const HeroOne = () => {
+const HeroTwo = () => {
   return (
     <div className="hero-two">
       <div className='wd-cont d-flex justify-content-center flex-column'>
@@ -11,4 +11,4 @@ const HeroOne = () => {
   )
 }
 
-export default HeroOne;
+export default HeroTwo;
