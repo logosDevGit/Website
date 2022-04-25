@@ -1,0 +1,27 @@
+.nav-bar {
+    width: 100vw;
+    height: 88px;
+    position: sticky;
+    top: 0;
+    background-color: var(--primary-color);
+    color: white;
+    z-index: 100;
+}
+.nav-bar li, .nav-bar .form-select,
+.nav-bar .form-select option{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.60rem;
+    line-height: 120%;
+    list-style-type: none;
+    margin-right: 16px;
+    color: white;
+}
+
+.nav-bar .form-select {
+    background-color: var(--primary-color);
+    margin: 0;
+    border: none;
+    width: 175px;
+}
