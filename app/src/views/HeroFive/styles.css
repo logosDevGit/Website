@@ -1,9 +1,10 @@
 .hero-five {
     background-color: white;
-    height: 100vh;
+    height: calc(100vh - 88px);
     text-align: center;
     color: #1180AE;
     padding-top: 100px;
+    z-index: 1;
 }
 .hero-five h1 {
     font-weight: 700;
@@ -16,7 +17,6 @@
 }
 
 .hero-five .grid-cards {
-    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(2, minmax(320px, 394px));
     grid-template-rows: repeat(2, minmax(320px, 394px));
