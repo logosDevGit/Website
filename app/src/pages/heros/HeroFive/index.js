@@ -1,8 +1,8 @@
 import './styles.css';
-import  Implantation from "../../assets/images/cards/implantation.svg"
-import  Knowledge from "../../assets/images/cards/knowledge.svg"
-import  CustomReports from "../../assets/images/cards/custom-reports.svg"
-import EduGames from "../../assets/images/cards/educational-games.svg"
+import  Implantation from "../../../assets/images/cards/implantation.svg"
+import  Knowledge from "../../../assets/images/cards/knowledge.svg"
+import  CustomReports from "../../../assets/images/cards/custom-reports.svg"
+import EduGames from "../../../assets/images/cards/educational-games.svg"
 
 const HeroFive = () => {
 
@@ -37,7 +37,7 @@ const HeroFive = () => {
             {Cards?.map(({title, description, Icon}) => {
                 return (
                     <div key={title}>
-                        <img src={Icon} />
+                        <img src={Icon} alt={title + " icon"}/>
                         <h3>{title}</h3>
                         <p>{description}</p>
                     </div>
