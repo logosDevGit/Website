@@ -1,6 +1,5 @@
 import './styles.css';
 import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
 import {ReactComponent as Tech} from "../../assets/images/cards/tech.svg"
 import {ReactComponent as Infra} from "../../assets/images/cards/infra.svg"
 import {ReactComponent as Edu} from "../../assets/images/cards/edu.svg"

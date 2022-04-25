@@ -1,0 +1,30 @@
+.hero-six h1 {
+    text-align: center;
+    font-size: 38px;
+    line-height: 46px;
+    color: #594780;
+    text-transform: uppercase;
+    padding: 60px 0px 40px ;
+}
+.hero-six .card-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 816px;
+    width: 100%;
+    height: 463px;
+}
+.hero-six .card-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.hero-six  .react-multiple-carousel__arrow,
+.hero-three  .react-multiple-carousel__arrow{
+    background-color: transparent;
+}
+.hero-six  .react-multiple-carousel__arrow::before,
+.hero-three  .react-multiple-carousel__arrow::before{
+    color: #594780;
+    font-weight: bold;
+    font-size: 32px;
+}
