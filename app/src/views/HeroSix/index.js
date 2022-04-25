@@ -16,18 +16,19 @@ const HeroSix = () => {
       };
 
     return(
-        <div className="hero-six wd-cont">
-            <h1>Portifólio</h1>
-            <div className='px-3'> 
-                <Carousel
-                    responsive={responsive}
-                    autoPlay={false}
-                    infinite={true}
-                >
-                    <div className="card-image"><img src={Pagamento} alt="portifólio image"/></div>
-                    <div className="card-image"><img src={BatalhaNaval} alt="portifólio image"/></div>
-                    <div className="card-image"><img src={Minions} alt="portifólio image"/></div>
-                </Carousel>
+        <div className="hero-six">
+            <div className='wd-cont'>
+                <h1>Portifólio</h1>
+                <div className='px-3'> 
+                    <Carousel
+                        responsive={responsive}
+                        infinite={true}
+                    >
+                        <div className="card-image"><img src={Pagamento} alt="portifólio image"/></div>
+                        <div className="card-image"><img src={BatalhaNaval} alt="portifólio image"/></div>
+                        <div className="card-image"><img src={Minions} alt="portifólio image"/></div>
+                    </Carousel>
+                </div>
             </div>
         </div>
     )

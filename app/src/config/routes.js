@@ -6,6 +6,7 @@ import HeroThree from "../views/HeroThree";
 import HeroFour from "../views/HeroFour";
 import HeroFive from "../views/HeroFive";
 import HeroSix from "../views/HeroSix";
+import HeroSeven from '../views/HeroSeven';
 
 const Routes = () => {
 
@@ -18,6 +19,7 @@ const Routes = () => {
             <HeroFour />
             <HeroFive/>
             <HeroSix/>
+            <HeroSeven/>
         </>
     )
 }
