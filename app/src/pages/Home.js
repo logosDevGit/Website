@@ -11,8 +11,8 @@ const Home = () => {
     return (
         <>
             <HeroOne />
-            {/* <HeroTwo />
-            <HeroThree />
+            <HeroTwo />
+            {/* <HeroThree />
             <HeroFour />
             <HeroFive/>
             <HeroSix/>
