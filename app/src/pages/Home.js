@@ -1,5 +1,5 @@
-import HeroOne from "../components/Hero/HeroOne/index"
-import HeroTwo from "../components/Hero/HeroTwo/index"
+import HeroOne from "../components/Hero/HeroOne"
+import HeroTwo from "../components/Hero/HeroTwo"
 import HeroThree from "../components/Hero/HeroThree";
 import HeroFour from "../components/Hero/HeroFour";
 import HeroFive from "../components/Hero/HeroFive";

@@ -47,4 +47,32 @@
         height: 28px;
         width: 28px;
     }
+
+
+
+
+
+    footer {
+        flex-direction: column;
+        height: 144px !important;
+    }
+
+    footer .logo {
+        margin-top: 10px;        
+    }
+
+    footer .logo{
+        width: 148px !important;
+        height: 36px !important;
+    }
+
+    footer p {
+        margin: 12px 0;
+        font-size: 12px;
+    }
+
+    footer a svg{
+        width: 32px !important;
+        height: 32px !important;
+    }
 }

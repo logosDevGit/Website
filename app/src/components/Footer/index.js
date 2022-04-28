@@ -5,17 +5,17 @@ import { FaLinkedinIn, FaFacebookSquare, FaInstagram} from "react-icons/fa"
 const Footer = () => {
 
     return(
-        <footer >
+        <footer>
             <div>
-                <Logo />
+                <Logo className="logo"/>
             </div>
             <div>
                 <p>contato@logoeduc.com.br</p>
             </div>
             <div className="d-flex">
                 <a><FaLinkedinIn/></a>
-                <a><FaFacebookSquare/></a>
                 <a><FaInstagram /></a>
+                <a><FaFacebookSquare/></a>
             </div>
         </footer>
     )
