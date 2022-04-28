@@ -1,10 +1,10 @@
-import HeroOne from "./heros/HeroOne/index"
-import HeroTwo from "./heros/HeroTwo/index"
-import HeroThree from "./heros/HeroThree";
-import HeroFour from "./heros/HeroFour";
-import HeroFive from "./heros/HeroFive";
-import HeroSix from "./heros/HeroSix";
-import HeroSeven from './heros/HeroSeven';
+import HeroOne from "../components/Hero/HeroOne/index"
+import HeroTwo from "../components/Hero/HeroTwo/index"
+import HeroThree from "../components/Hero/HeroThree";
+import HeroFour from "../components/Hero/HeroFour";
+import HeroFive from "../components/Hero/HeroFive";
+import HeroSix from "../components/Hero/HeroSix";
+import HeroSeven from '../components/Hero/HeroSeven';
 
 const Home = () => {
     
