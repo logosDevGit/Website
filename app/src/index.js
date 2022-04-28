@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/styles/global.css'
+import './assets/styles/responsive.css'
 import Routes from './config/routes'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

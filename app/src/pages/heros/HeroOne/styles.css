@@ -1,5 +1,6 @@
 .hero-one {
     height: calc(100vh - 88px);
+    position: relative;
     width: 100%;
     background-image: url(https://i.pinimg.com/originals/d4/3a/33/d43a332c80e6ffcb9ba914dfe1ffc95a.jpg);
     background-size: cover;

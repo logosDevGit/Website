@@ -8,7 +8,7 @@ const Routes = () => {
     return (
         <>
             <NavBar />
-            <Home />
+                <Home />
             <Footer />
         </>
     )
