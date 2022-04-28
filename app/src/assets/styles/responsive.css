@@ -49,7 +49,29 @@
     }
 
 
+    .hero-one {
+        background-image: url('../../assets/images/bg-hero1-m.png') !important;
+        background-size: cover !important;
+        height: calc(100vh - 66px) !important;
+        background-position: center;
+    }
 
+    .hero-one h1 {
+        font-size: 21px !important;
+        max-width: 268px;
+        margin-top: 40px;
+    }
+
+    .hero-one .info p{
+        font-size: 12px !important;
+        max-width:  157px;
+        margin-top: 20px !important;
+    }
+
+    .hero-one .info button {
+        padding: 8px 16px;
+        font-size: 12px !important;
+    }
 
 
     footer {

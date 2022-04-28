@@ -8,7 +8,7 @@ const HeroOne = () => {
         <div className="info">
             <h1>UMA NOVA FORMA DE ENSINAR E APRENDER.</h1>
             <p className='mt-5'>Recursos multimídia e uma experiência de imersão que mudam a forma de aprender. </p>
-            <Button className='mt-3' color='warning' outline>Entre em contato agora</Button>
+            <Button className='mt-3 btn-yellow' >Entre em contato agora</Button>
         </div>
       </div>
         <div className='gradient-line'/>
