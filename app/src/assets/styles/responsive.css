@@ -133,10 +133,11 @@
         padding-top: 10px !important;
     }
 
-    .hero-five h3 {
+    .hero-five h3, .hero-five h1 {
         font-weight: 500;
-        font-size: 24px;
+        font-size: 24px !important;
         line-height: 28px;
+        text-transform: uppercase;
     }
 
     .hero-five p {
@@ -154,6 +155,27 @@
         grid-template-rows: repeat(4, auto) !important;
         row-gap: 32px !important;
         row-gap: 0;
+    }
+
+
+    .hero-six h1{
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .hero-six img {
+        width: 227px;
+    }
+
+    .hero-six .card-image {
+        display: block;
+        width: 100%;
+        height: 162px !important;
+    }
+
+    .hero-six  .react-multiple-carousel__arrow::before,
+    .hero-three  .react-multiple-carousel__arrow::before {
+        font-size: 21px !important;
     }
 
     footer {
