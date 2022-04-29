@@ -9,6 +9,7 @@
 .hero-five h1 {
     font-weight: 700;
     font-size: 38px;
+    text-transform: uppercase !important;
 }
 .hero-five p {
     font-weight: 400;
