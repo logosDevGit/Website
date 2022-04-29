@@ -5,6 +5,7 @@ import HeroFour from "../components/Hero/HeroFour";
 import HeroFive from "../components/Hero/HeroFive";
 import HeroSix from "../components/Hero/HeroSix";
 import HeroSeven from '../components/Hero/HeroSeven';
+import HeroEight from "../components/Hero/HeroEight";
 
 const Home = () => {
     
@@ -16,6 +17,7 @@ const Home = () => {
             <HeroFour />
             <HeroFive/>
             <HeroSix/>
+            <HeroEight/>
 {/*             <HeroSeven/>
  */}        </>
     )
