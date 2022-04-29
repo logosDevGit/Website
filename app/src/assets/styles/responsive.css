@@ -87,6 +87,24 @@
         margin-top: 25px !important;
     }
 
+
+    .hero-three {
+        background-color: white;
+        height: auto !important;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .hero-three h3 {
+        font-size: 24px !important;
+    }
+
+    .hero-three p {
+        font-size: 14px !important;
+        max-width: 280px;
+        margin: auto;     
+    }
+
     footer {
         flex-direction: column;
         height: 144px !important;
