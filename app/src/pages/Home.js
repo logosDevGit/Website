@@ -13,8 +13,8 @@ const Home = () => {
             <HeroOne />
             <HeroTwo />
             <HeroThree />
-            {/* <HeroFour />
-            <HeroFive/>
+            <HeroFour />
+            {/* <HeroFive/>
             <HeroSix/>
             <HeroSeven/> */}
         </>
