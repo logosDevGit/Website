@@ -12,7 +12,7 @@ const HeroSeven = () => {
                     <input type="text" name="email" placeholder="Seu melhor email de contato"/>
                     <input type="text" name="phone" placeholder="Número de contato"/>
                     <input type="text" name="business" placeholder="Nome da empresa"/>
-                    <Button className='mt-3' color='warning' outline>Entre em contato agora</Button>
+                    <Button className='mt-3 btn-yellow'>Entre em contato agora</Button>
                 </form>
             </div>
         </div>

@@ -14,12 +14,20 @@
     font-weight: 400;
     font-size: 21px;
     line-height: 25px;
+    color: #0F4C81;
+    margin: 0 10px;
+}
+
+.hero-five h3 {
+    text-transform: uppercase;
+    margin: 18px 0 8px;
+    font-weight: 700;
 }
 
 .hero-five .grid-cards {
     display: grid;
-    grid-template-columns: repeat(2, minmax(320px, 394px));
-    grid-template-rows: repeat(2, minmax(320px, 394px));
+    grid-template-columns: repeat(2, minmax(320px, 395px));
+    grid-template-rows: repeat(2, minmax(320px, 395px));
     justify-content: center;
     column-gap: 200px;
     row-gap: 84px;

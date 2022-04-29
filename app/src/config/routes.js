@@ -1,17 +1,22 @@
 import 'react-multi-carousel/lib/styles.css';
+import { Routes, Route} from "react-router-dom";
 import NavBar from "../components/NavBar";
 import Footer from '../components/Footer';
 import Home from '../pages/Home';
+import QuemSomos from '../pages/QuemSomos';
 
-const Routes = () => {
+const App = () => {
 
     return (
         <>
             <NavBar />
-                <Home />
+                <Routes>
+                    <Route path="/" element={<Home />}  />
+                    <Route path="quem-somos" element={<QuemSomos />}  />
+                </Routes>
             <Footer />
         </>
     )
 }
 
-export default Routes;
+export default App;

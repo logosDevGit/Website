@@ -47,3 +47,14 @@ p, small {
 }
 
 /* Buttons */
+
+.btn-yellow {
+  background-color: var(--secondary-color);
+  color: white;
+  border: var(--secondary-color);
+}
+.btn-yellow:hover{
+  background-color: var(--secondary-color);
+  color: white;
+  border: var(--secondary-color);
+}

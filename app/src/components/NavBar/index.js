@@ -3,6 +3,7 @@ import './styles.css'
 import {ReactComponent as Logo} from '../../assets/images/logos/primary.svg';
 import { Input } from "reactstrap";
 import { FaBars } from "react-icons/fa"
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -17,7 +18,9 @@ const NavBar = () => {
                 <div className='desktop h-100'>
                     <div className="wd-cont d-flex align-items-center">
                         <div>
-                            <Logo />
+                            <Link to="/">
+                                <Logo />
+                            </Link>
                         </div>
                         <ul className="d-flex align-items-center mb-0 ">
                             <li>
@@ -45,7 +48,7 @@ const NavBar = () => {
                                     </option>
                                 </Input>
                             </li>
-                            <li>Quem Somos</li>
+                            <li><Link to="/quem-somos">Quem Somos</Link></li>
                             <li>Metodolodia</li>
                             <li>Portifólio</li>
                             <li>Contato</li>
@@ -55,7 +58,9 @@ const NavBar = () => {
                 <div className='mobile navbar'>
                      <div className="wd-cont d-flex align-items-center">
                         <div>
-                            <Logo />
+                            <Link to="/">
+                                <Logo />
+                            </Link>
                         </div>
                         <div className='line'></div>
                         <h1>Soluções Educacionais</h1>
@@ -89,7 +94,7 @@ const NavBar = () => {
                                     </option>
                                 </Input>
                             </li>
-                            <li>Quem Somos</li>
+                            <li> <Link to="/quem-somos">Quem Somos</Link></li>
                             <li>Metodolodia</li>
                             <li>Portifólio</li>
                             <li>Contato</li>

@@ -7,14 +7,11 @@ import HeroSix from "../components/Hero/HeroSix";
 import HeroSeven from '../components/Hero/HeroSeven';
 import HeroEight from "../components/Hero/HeroEight";
 
-const Home = () => {
+const QuemSomos = () => {
     
     return (
         <>
-            <HeroOne />
-            <HeroTwo />
-            <HeroThree />
-            <HeroFour />
+            
             <HeroFive/>
             <HeroSix/>
             <HeroEight/>
@@ -24,4 +21,4 @@ const Home = () => {
 
 }
 
-export default Home;
+export default QuemSomos;
