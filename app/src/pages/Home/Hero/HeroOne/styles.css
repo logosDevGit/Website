@@ -2,7 +2,7 @@
     height: calc(100vh - 88px);
     position: relative;
     width: 100%;
-    background-image: url('../../../assets/images/bg-hero1-d.png');
+    background-image: url('../../../../assets/images/bg-hero1-d.png');
     background-size: cover;
 }
 .hero-one .info{

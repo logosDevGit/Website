@@ -1,9 +1,9 @@
 import './styles.css';
-import Educlass from "../../../assets/images/parceiros/Educlass.svg"
-import Nobles from "../../../assets/images/parceiros/Nobles.svg"
-import PGL from "../../../assets/images/parceiros/PGL.svg"
-import FrancineDias from "../../../assets/images/parceiros/FrancineDias.svg"
-import RedeMoodle from "../../../assets/images/parceiros/RedeMoodle.svg"
+import Educlass from "../../../../assets/images/parceiros/Educlass.svg"
+import Nobles from "../../../../assets/images/parceiros/Nobles.svg"
+import PGL from "../../../../assets/images/parceiros/PGL.svg"
+import FrancineDias from "../../../../assets/images/parceiros/FrancineDias.svg"
+import RedeMoodle from "../../../../assets/images/parceiros/RedeMoodle.svg"
 
 const HeroEight = () => {
   return (

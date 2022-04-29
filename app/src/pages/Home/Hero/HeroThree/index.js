@@ -1,10 +1,10 @@
 import './styles.css';
 import Carousel from 'react-multi-carousel';
-import {ReactComponent as Tech} from "../../../assets/images/cards/tech.svg"
-import {ReactComponent as Infra} from "../../../assets/images/cards/infra.svg"
-import {ReactComponent as Edu} from "../../../assets/images/cards/edu.svg"
-import {ReactComponent as Help} from "../../../assets/images/cards/help.svg"
-import {ReactComponent as Digi} from "../../../assets/images/cards/digi.svg"
+import {ReactComponent as Tech} from "../../../../assets/images/cards/tech.svg"
+import {ReactComponent as Infra} from "../../../../assets/images/cards/infra.svg"
+import {ReactComponent as Edu} from "../../../../assets/images/cards/edu.svg"
+import {ReactComponent as Help} from "../../../../assets/images/cards/help.svg"
+import {ReactComponent as Digi} from "../../../../assets/images/cards/digi.svg"
 
 const HeroThree = () => {
 

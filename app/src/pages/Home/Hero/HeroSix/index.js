@@ -1,8 +1,8 @@
 import Carousel from 'react-multi-carousel';
 import "./styles.css"
-import BatalhaNaval from "../../../assets/images/portifolio/batalha-naval.png"
-import Minions from "../../../assets/images/portifolio/minions.png"
-import Pagamento from "../../../assets/images/portifolio/pagamento.png"
+import BatalhaNaval from "../../../../assets/images/portifolio/batalha-naval.png"
+import Minions from "../../../../assets/images/portifolio/minions.png"
+import Pagamento from "../../../../assets/images/portifolio/pagamento.png"
 
 
 const HeroSix = () => {
