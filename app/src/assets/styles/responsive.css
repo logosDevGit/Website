@@ -128,6 +128,31 @@
         color: var(--primary-color) !important;
     }
 
+
+    .hero-five {
+        padding-top: 10px !important;
+    }
+
+    .hero-five h3 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .hero-five p {
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+
+
+    
+    .hero-five .grid-cards {
+        grid-template-columns: repeat(1, minmax(320px, 344px)) !important;
+        grid-template-rows: repeat(4, 340px) !important;
+        row-gap: 32px !important;
+        row-gap: 0;
+    }
+
     footer {
         flex-direction: column;
         height: 144px !important;
