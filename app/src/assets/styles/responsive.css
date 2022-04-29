@@ -144,11 +144,14 @@
         line-height: 18px !important;
     }
 
-
+    .hero-five img {
+        width: 144px;
+        height: 144px;
+    }
     
     .hero-five .grid-cards {
-        grid-template-columns: repeat(1, minmax(320px, 344px)) !important;
-        grid-template-rows: repeat(4, 340px) !important;
+        grid-template-columns: repeat(1, 255px) !important;
+        grid-template-rows: repeat(4, auto) !important;
         row-gap: 32px !important;
         row-gap: 0;
     }
