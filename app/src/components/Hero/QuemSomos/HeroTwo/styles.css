@@ -1,0 +1,33 @@
+.hero-two.quem-somos {
+    background-color: var(--tertiary-color);
+    height: 100%;
+    justify-content: flex-start;
+    color: white;
+    position: relative;
+}
+.hero-two.quem-somos h1 {
+    font-size: 50px;
+    padding-top: 97px;
+}
+.hero-two.quem-somos p {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 120%;
+    text-align: start;
+    max-width: 1280px;
+    margin: 40px auto;
+}
+
+.hero-two.quem-somos h3 {
+    font-size: 50px;
+    text-align: start;
+    font-weight: 700;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.hero-two.quem-somos img {
+    height: 100%;
+    width: 100%;
+}
