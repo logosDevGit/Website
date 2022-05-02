@@ -13,10 +13,8 @@ const Tech = () => {
         <>
             <HeroOne />
             <HeroTwo />
-            <HeroThree />
-            <HeroFour />
-            <HeroFive/>
             <HeroSix/>
+            <HeroThree />
             <HeroEight/>
             <HeroSeven/>
          </>
