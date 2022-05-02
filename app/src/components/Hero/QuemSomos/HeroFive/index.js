@@ -31,13 +31,13 @@ const HeroFive = () => {
   return (
     <div className="hero-five quem-somos">
       <div className='wd-cont d-flex justify-content-center flex-column'>
-        <h3>Como fazemos</h3>
+        <h1>Como fazemos</h1>
         <p>Nossa metodologia é simples e fluída, nosso processo é ágil e com poucas etapas.</p>
         <p> Utilizamos bate-papos e acompanhamento das tarefas / rotinas executadas, engajando e desenvolvendo junto com o colaborador o conhecimento necessário para o negócio.</p>
-        <div className='h-100 w-100 my-5'>
+        <div className='h-100 w-100 my-5 steps'>
             <img src={Steps} alt="Passos de como fazemos"/>
         </div>
-        <h2>Nosso objetivo é capacitar profissionais através de uma proposta de geração de valor e compromisso com o desenvolvimento social e intelectual dos mesmos dentro das organizações.</h2>
+        <h3 className='info-text'>Nosso objetivo é capacitar profissionais através de uma proposta de geração de valor e compromisso com o desenvolvimento social e intelectual dos mesmos dentro das organizações.</h3>
         <div className='grid-cards'>
             {Cards?.map(({title, description, Icon, gridArea}) => {
                 return (

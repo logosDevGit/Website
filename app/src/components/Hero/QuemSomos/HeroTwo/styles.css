@@ -5,20 +5,19 @@
     color: white;
     position: relative;
 }
-.hero-two.quem-somos h1 {
+.hero-two.quem-somos h2 {
     padding-top: 97px;
+    text-transform: uppercase;
 }
 .hero-two.quem-somos p {
     font-weight: 400;
-    font-size: 38px;
     line-height: 120%;
     text-align: start;
     max-width: 1280px;
     margin: 40px auto;
 }
 
-.hero-two.quem-somos h3 {
-    font-size: 50px;
+.hero-two.quem-somos .in-text {
     text-align: start;
     font-weight: 700;
     max-width: 1280px;
