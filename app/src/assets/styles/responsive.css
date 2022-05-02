@@ -346,4 +346,10 @@
         background-image: url('../images/bg-tech.jpg') !important;
     }
 
+    /* INFRA */
+
+    .hero-one.infra {
+        background-image: url('../images/bg-infra-m.jpg') !important;
+    }
+
 }
