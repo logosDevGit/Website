@@ -11,17 +11,20 @@ const HeroFive = () => {
         {
             title: "Relatórios customizados",
             description: "Produção de relatórios customizados com extração de dados conforme a necessidade do seu negócio.",
-            Icon: CustomReports 
+            Icon: CustomReports,
+            gridArea: 'a'
         },
         {
             title: "Games educacionais",
             description: "Através da proposta de aprendizagem criamos projetos ludicos que estimulam e engajam alunos e colaboradores na construção dos seus conhecimentos.",
-            Icon: EduGames 
+            Icon: EduGames,
+            gridArea: 'b'
         },
         {
             title: "Cursos e Treinamentos",
             description: "Captação de conteúdo com os profissionais de referência para confecção dos materias ou transformação dos conteúdos em cursos e treinamentos EAD.",
-            Icon: Knowledge 
+            Icon: Knowledge,
+            gridArea: 'c'
         },
     ];
 
@@ -36,9 +39,9 @@ const HeroFive = () => {
         </div>
         <h2>Nosso objetivo é capacitar profissionais através de uma proposta de geração de valor e compromisso com o desenvolvimento social e intelectual dos mesmos dentro das organizações.</h2>
         <div className='grid-cards'>
-            {Cards?.map(({title, description, Icon}) => {
+            {Cards?.map(({title, description, Icon, gridArea}) => {
                 return (
-                    <div key={title}>
+                    <div key={title} style={{gridArea: gridArea}}>
                         <img src={Icon} alt={title + " icon"}/>
                         <h3>{title}</h3>
                         <p>{description}</p>

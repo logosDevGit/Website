@@ -10,3 +10,21 @@
     margin: 50px 0 90px;
 }
 
+.hero-five .grid-cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-template-areas:  
+        "a a a a"
+        "b b c c"
+
+    ;
+    column-gap: 200px;
+    row-gap: 84px;
+}
+
+.hero-five.quem-somos .grid-cards div {
+    max-width: 360px;
+    margin: 0 auto;
+} 
+
