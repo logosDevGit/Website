@@ -352,4 +352,10 @@
         background-image: url('../images/bg-infra-m.jpg') !important;
     }
 
+    /* HELP */
+
+    .hero-one.help {
+        background-image: url('../images/bg-help.jpg') !important;
+    }
+
 }
