@@ -340,4 +340,10 @@
         row-gap: 84px;
     }
 
+    /* TECH */
+
+    .hero-one.tech {
+        background-image: url('../images/bg-tech.jpg') !important;
+    }
+
 }
