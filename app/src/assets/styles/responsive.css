@@ -114,8 +114,8 @@
     }
 
     .hero-two {
-        height: 232px !important;
-        padding: 0 40px;
+        height: auto!important;
+        padding: 70px 40px;
     }
 
     .hero-two h1 {
@@ -127,6 +127,33 @@
         margin-top: 25px !important;
     }
 
+    .hero-two .icon {
+        position: absolute;
+        z-index: 2;
+    }
+
+    .hero-two .icon.logo {
+        top: -42px !important;
+        left: 6px !important;
+        width: 20%;    
+    }
+    
+    .hero-two .icon.foguete {
+        right: -20px !important;
+        width: 14%;
+    }
+
+    .hero-two .icon.ideia {
+        bottom: -9px !important;
+        left: 70px !important;
+        width: 10%;
+    }
+
+    .hero-two .icon.globe {
+        bottom: -30px !important;
+        right: -23px !important;
+        width: 17%;
+    }
 
     .hero-three {
         background-color: white;
