@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Home from '../pages/Home';
 import QuemSomos from '../pages/QuemSomos';
 import Tech from '../pages/Tech';
+import Infra from '../pages/Infra';
 
 const App = () => {
 
@@ -13,8 +14,9 @@ const App = () => {
             <NavBar />
                 <Routes>
                     <Route path="/" element={<Home />}  />
-                    <Route path="quem-somos" element={<QuemSomos />}  />
-                    <Route path="tech" element={<Tech />}  />
+                    <Route path="quem-somos" exact element={<QuemSomos />}  />
+                    <Route path="tech" exact element={<Tech />}  />
+                    <Route path="infra" exact element={<Infra />}  />
                 </Routes>
             <Footer />
         </>
