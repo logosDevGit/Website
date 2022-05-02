@@ -31,7 +31,7 @@ const HeroFive = () => {
   return (
     <div className="hero-five quem-somos">
       <div className='wd-cont d-flex justify-content-center flex-column'>
-        <h1>Como fazemos</h1>
+        <h3>Como fazemos</h3>
         <p>Nossa metodologia é simples e fluída, nosso processo é ágil e com poucas etapas.</p>
         <p> Utilizamos bate-papos e acompanhamento das tarefas / rotinas executadas, engajando e desenvolvendo junto com o colaborador o conhecimento necessário para o negócio.</p>
         <div className='h-100 w-100 my-5'>
@@ -43,7 +43,7 @@ const HeroFive = () => {
                 return (
                     <div key={title} style={{gridArea: gridArea}}>
                         <img src={Icon} alt={title + " icon"}/>
-                        <h3>{title}</h3>
+                        <h4>{title}</h4>
                         <p>{description}</p>
                     </div>
                 )

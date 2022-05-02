@@ -10,7 +10,7 @@
     margin: 50px 0 90px;
 }
 
-.hero-five .grid-cards {
+.hero-five.quem-somos .grid-cards {
     display: grid;
     justify-content: center;
     grid-template-columns: auto;

@@ -32,13 +32,13 @@ const HeroFive = () => {
   return (
     <div className="hero-five">
       <div className='wd-cont d-flex justify-content-center flex-column'>
-        <h1>Como fazemos</h1>
+        <h3>Como fazemos</h3>
         <div className='grid-cards'>
             {Cards?.map(({title, description, Icon}) => {
                 return (
                     <div key={title}>
                         <img src={Icon} alt={title + " icon"}/>
-                        <h3>{title}</h3>
+                        <h4>{title}</h4>
                         <p>{description}</p>
                     </div>
                 )

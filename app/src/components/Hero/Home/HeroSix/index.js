@@ -18,7 +18,7 @@ const HeroSix = () => {
     return(
         <div className="hero-six">
             <div className='wd-cont'>
-                <h1>Portifólio</h1>
+                <h3>Portifólio</h3>
                 <div className='px-3'> 
                     <Carousel
                         responsive={responsive}
