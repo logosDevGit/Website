@@ -1,39 +1,7 @@
-.hero-two {
-    background-color: var(--tertiary-color);
-    height: 80vh;
-    text-align: center;
-    color: white;
-    position: relative;
-}
-.hero-two h1 {
-    font-weight: 700;
-}
-.hero-two p {
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 150%;
-    margin-top: 65px;
+.hero-two.tech {
+    background-color: var(--tech-primary);
 }
 
-.hero-two .icon {
-    position: absolute;
-    z-index: 2;
-}
-
-.hero-two .icon.logo {
-    top: -100px;
-    left: 15px;
-}
-
-.hero-two .icon.foguete {
-    top: 0;
-    right: -70px;
-}
-.hero-two .icon.ideia {
-    bottom: -31px;
-    left: 200px;
-}
-.hero-two .icon.globe {
-    bottom: -150px;
-    right: -50px;
+.hero-two.tech h1 {
+    color: var(--tech-secondary);
 }
