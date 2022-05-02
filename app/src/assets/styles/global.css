@@ -5,9 +5,15 @@ font-family: 'Roboto', sans-serif; - Text
 */
 
 :root {
+    /* DEFAULT COLOR */
     --primary-color: #6D5B97;
     --secondary-color: #FCB239;
     --tertiary-color: #D74061;
+
+    /* TECH COLOR */
+    --tech-primary: #BED441;
+    --tech-secondary: #1180AE;
+    --tech-tertiary: #F37A29;
 }
 
 * {
