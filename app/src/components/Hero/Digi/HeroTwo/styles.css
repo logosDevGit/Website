@@ -1,7 +1,7 @@
-.hero-two.help {
-    background-color: var(--help-primary);
+.hero-two.digi {
+    background-color: var(--digi-secondary);
 }
 
-.hero-two.help h1 {
-    color: var(--help-secondary);
+.hero-two.digi h1 {
+    color: var(--digi-primary);
 }
