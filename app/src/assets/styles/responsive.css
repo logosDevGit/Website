@@ -358,4 +358,10 @@
         background-image: url('../images/bg-help.jpg') !important;
     }
 
+    /* DIGI */
+
+    .hero-one.digi {
+        background-image: url('../images/bg-digi.jpg') !important;
+    }
+
 }

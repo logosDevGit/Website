@@ -3,11 +3,11 @@ import './styles.css';
 
 const HeroOne = () => {
   return (
-    <div className="hero-one help">
+    <div className="hero-one digi">
       <div className='wd-cont'>
         <div className="info">
-            <h3>Equipe de suporte em TI e Infraestrutura preparada para lhe auxiliar com qualquer imprevisto</h3>
-            <p className='mt-5'>Suporte para o seu sistema quando e como precisar.</p>
+            <h3>Equipe multidisciplinar preparada para criação de materiais digitais de todos os tipos</h3>
+            <p className='mt-5'>Da criação de peças gráficas à video-aulas, KVs e UI design.</p>
             <Button className='mt-3 btn-yellow'>Entre em contato agora</Button>
         </div>
       </div>

@@ -7,6 +7,7 @@ import QuemSomos from '../pages/QuemSomos';
 import Tech from '../pages/Tech';
 import Infra from '../pages/Infra';
 import Help from '../pages/Help';
+import Digi from '../pages/Digi';
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
                     <Route path="tech" exact element={<Tech />}  />
                     <Route path="infra" exact element={<Infra />}  />
                     <Route path="help!" exact element={<Help />}  />
+                    <Route path="digi" exact element={<Digi />}  />
                 </Routes>
             <Footer />
         </>
