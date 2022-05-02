@@ -1,5 +1,5 @@
 import 'react-multi-carousel/lib/styles.css';
-import { Routes, Route} from "react-router-dom";
+import { Routes, Route, Navigate} from "react-router-dom";
 import NavBar from "../components/NavBar";
 import Footer from '../components/Footer';
 import Home from '../pages/Home';
@@ -16,6 +16,7 @@ const App = () => {
             <NavBar />
                 <Routes>
                     <Route path="/" element={<Home />}  />
+                    <Route path="*"element={<Navigate to="/" />}/>
                     <Route path="quem-somos" exact element={<QuemSomos />}  />
                     <Route path="tech" exact element={<Tech />}  />
                     <Route path="infra" exact element={<Infra />}  />
