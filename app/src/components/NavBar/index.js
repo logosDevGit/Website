@@ -4,10 +4,11 @@ import {ReactComponent as Logo} from '../../assets/images/logos/primary.svg';
 import { Input } from "reactstrap";
 import { FaBars } from "react-icons/fa"
 import { Link } from 'react-router-dom';
+import NavSidebar from '../NavSidebar/index.js';
 
 const NavBar = () => {
 
-    const [collapse, setCollpse] = useState(true)
+    const [collapse, setCollpse] = useState(false)
 
     const openNav = () => {
         setCollpse(!collapse)
@@ -66,40 +67,7 @@ const NavBar = () => {
                         <h1>Soluções Educacionais</h1>
                         <button onClick={() => openNav()}><FaBars /></button>
                     </div>
-                    <div className={collapse ? "collapse" : "collapse show"} >
-                        <ul className="d-flex flex-column mb-0 ">
-                            <li>
-                                <Input
-                                    bsSize="lg"
-                                    type="select"
-                                    style={{paddingLeft: '0'}}
-                                >
-                                    <option>
-                                        Equipes
-                                    </option>
-                                    <option>
-                                        Tech
-                                    </option>
-                                    <option>
-                                        Infra
-                                    </option>
-                                    <option>
-                                        Help!
-                                    </option>
-                                    <option>
-                                        Edu
-                                    </option>
-                                    <option>
-                                        Digi
-                                    </option>
-                                </Input>
-                            </li>
-                            <li> <Link to="/quem-somos">Quem Somos</Link></li>
-                            <li>Metodolodia</li>
-                            <li>Portifólio</li>
-                            <li>Contato</li>
-                        </ul>
-                    </div>
+                    <NavSidebar collapse={collapse}  openNav={() => openNav()}/>
                 </div>
             </div>
     )
