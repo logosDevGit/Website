@@ -6,6 +6,7 @@ import Home from '../pages/Home';
 import QuemSomos from '../pages/QuemSomos';
 import Tech from '../pages/Tech';
 import Infra from '../pages/Infra';
+import Help from '../pages/Help';
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
                     <Route path="quem-somos" exact element={<QuemSomos />}  />
                     <Route path="tech" exact element={<Tech />}  />
                     <Route path="infra" exact element={<Infra />}  />
+                    <Route path="help" exact element={<Help />}  />
                 </Routes>
             <Footer />
         </>
