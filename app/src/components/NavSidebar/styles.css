@@ -1,0 +1,56 @@
+.nav-sidebar {
+    background-color: var(--primary-color);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: calc(100% - 110px);
+    transition: all 0.35s ease-out;
+}
+
+.nav-sidebar.hide {
+    width: 0px;
+    opacity: 0;
+}
+
+.nav-sidebar .close {
+    margin: 18.5px 13px;
+    float: right;
+    height: 32px;
+    cursor: pointer;
+}
+
+.nav-sidebar .close svg{
+    height: 32px;
+    width: 32px;
+}
+
+.nav-sidebar ul {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.nav-sidebar li {
+    height: 39px;
+    padding: 4px 0px;
+    margin: 16px 0;
+}
+.nav-sidebar li:first-child {
+    margin: 4px;
+}
+
+.dropdown.hide {
+    display: none;
+}
+
+.dropdown li {
+    font-weight: 400;
+    font-size: 16px;
+    border-bottom: 2px solid #FFFFFF;;
+    padding-left: 5px;
+    margin: 4px 0;
+}
+
+.dropdown li:last-child {
+    border: none;
+}
