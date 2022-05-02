@@ -14,6 +14,11 @@ font-family: 'Roboto', sans-serif; - Text
     --tech-primary: #BED441;
     --tech-secondary: #1180AE;
     --tech-tertiary: #F37A29;
+
+    /* INFRA COLOR */
+    --infra-primary: #B4B4B4;
+    --infra-secondary: #6D5B97;
+    --infra-tertiary: #F37A29;
 }
 
 * {
