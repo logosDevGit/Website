@@ -1,10 +1,25 @@
 @media all and (max-width: 600px) {
 
+
+    /* GLOBAL */
+
+    h1 {font-size: 28px; font-weight: 700;}
+    h2 {font-size: 24px; font-weight: 700;}
+    h3 {font-size: 21px; font-weight: 700;}
+    h4 {font-size: 24px; font-weight: 500;}
+    h5 {font-size: 21px; font-weight: 700;}
+    h6 {font-size: 21px; font-weight: 400;}
+
+    p {font-size: 16px;}
+
+    small {font-size: 10px;}
+    
     .wd-cont {
         width: 100%;
         max-width: 100%;
     }
 
+    /* NAVBAR */
     .nav-bar {
         height: auto !important;
     }
@@ -48,6 +63,33 @@
         width: 28px;
     }
 
+    /* FOOTER */
+
+    footer {
+        flex-direction: column;
+        height: 144px !important;
+    }
+
+    footer .logo {
+        margin-top: 10px;        
+    }
+
+    footer .logo{
+        width: 148px !important;
+        height: 36px !important;
+    }
+
+    footer p {
+        margin: 12px 0;
+        font-size: 12px;
+    }
+
+    footer a svg{
+        width: 32px !important;
+        height: 32px !important;
+    }
+
+    /* HOME */
 
     .hero-one {
         background-image: url('../../assets/images/bg-hero1-m.png') !important;
@@ -56,14 +98,12 @@
         background-position: center;
     }
 
-    .hero-one h1 {
-        font-size: 21px !important;
+    .hero-one h3 {
         max-width: 268px;
         margin-top: 40px;
     }
 
     .hero-one .info p{
-        font-size: 12px !important;
         max-width:  157px;
         margin-top: 20px !important;
     }
@@ -94,13 +134,12 @@
         text-align: center;
         z-index: 1;
     }
-    
+
     .hero-three h3 {
-        font-size: 24px !important;
+        padding-top: 30px;
     }
     
     .hero-three p {
-        font-size: 14px !important;
         max-width: 280px;
         margin: auto
     }
@@ -110,18 +149,14 @@
         height: 500px !important;
         color: var(--primary-color) !important;
     }
-    .hero-four h1{
-        font-size: 24px !important;
-    }
     .hero-four p{
-        font-size: 14px !important;
         width: 300px !important;
-        margin: 20px !important;
+        margin: 14px !important;
     }
 
     .hero-four strong {
         font-size: 12px !important;
-        margin-bottom: 24px !important;
+        margin-bottom: 4px !important;
     }
 
     .hero-four a {
@@ -133,7 +168,11 @@
         padding-top: 10px !important;
     }
 
-    .hero-five h3, .hero-five h1 {
+    .hero-five h3 {
+        text-transform: uppercase;
+    }
+
+    .hero-five h1 {
         font-weight: 500;
         font-size: 24px !important;
         line-height: 28px;
@@ -145,10 +184,10 @@
         line-height: 18px !important;
     }
 
-    .hero-five img {
+    /* .hero-five img {
         width: 144px;
         height: 144px;
-    }
+    } */
     
     .hero-five .grid-cards {
         grid-template-columns: repeat(1, 255px) !important;
@@ -211,27 +250,67 @@
         margin: 0 5px;
     }
 
-    footer {
-        flex-direction: column;
-        height: 144px !important;
+    /* QUEM SOMOS */
+
+    .hero-two.quem-somos {
+        height: 100% !important;
+        padding: 0 !important;
     }
 
-    footer .logo {
-        margin-top: 10px;        
+    .hero-two.quem-somos h2, .hero-two.quem-somos p {
+        padding: 0 20px !important;
+    }
+    
+
+    .hero-two.quem-somos h2 {
+        padding-top: 30px !important;
+        text-align: start;
     }
 
-    footer .logo{
-        width: 148px !important;
-        height: 36px !important;
+    .hero-two.quem-somos .in-text {
+        margin: 0 !important;
+        font-size: 14px;
+        font-weight: 900;
+        text-transform: none !important;
+        padding: 10px 20px 30px !important;
     }
 
-    footer p {
-        margin: 12px 0;
-        font-size: 12px;
+    .hero-two.quem-somos p {
+        margin: 10px 0 !important;
     }
 
-    footer a svg{
-        width: 32px !important;
-        height: 32px !important;
+    .hero-five.quem-somos h3, .hero-five.quem-somos h1 {
+        margin: 20px 0 !important;
     }
+
+    .hero-five.quem-somos p {
+        margin: 10px !important;
+    }
+
+    .hero-five.quem-somos .info-text {
+        margin: 20px 0 !important;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: none !important;
+        color: #0F4C81;
+    }
+
+    .hero-five.quem-somos .steps img {
+        height: 100% !important;
+        width: 360px !important;
+    }
+
+    .hero-five.quem-somos .grid-cards {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto;
+        grid-template-areas:  
+            "a"
+            "b"
+            "c"
+        !important;
+        column-gap: 200px;
+        row-gap: 84px;
+    }
+
 }

@@ -6,19 +6,14 @@
     padding-top: 100px;
     z-index: 1;
 }
-.hero-five h1 {
-    font-weight: 700;
-    font-size: 38px;
-}
 .hero-five p {
     font-weight: 400;
-    font-size: 21px;
     line-height: 25px;
     color: #0F4C81;
     margin: 0 10px;
 }
 
-.hero-five h3 {
+.hero-five h4 {
     text-transform: uppercase;
     margin: 18px 0 8px;
     font-weight: 700;

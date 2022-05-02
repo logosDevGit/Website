@@ -1,18 +1,17 @@
-import HeroOne from "../components/Hero/HeroOne"
-import HeroTwo from "../components/Hero/HeroTwo"
-import HeroThree from "../components/Hero/HeroThree";
-import HeroFour from "../components/Hero/HeroFour";
-import HeroFive from "../components/Hero/HeroFive";
-import HeroSix from "../components/Hero/HeroSix";
-import HeroSeven from '../components/Hero/HeroSeven';
-import HeroEight from "../components/Hero/HeroEight";
+import HeroTwo from "../components/Hero/QuemSomos/HeroTwo";
+import HeroFive from "../components/Hero/QuemSomos/HeroFive";
+import HeroSix from "../components/Hero/Home/HeroSix";
+import HeroSeven from '../components/Hero/Home/HeroSeven';
+import HeroEight from "../components/Hero/Home/HeroEight";
+import HeroThree from "../components/Hero/Home/HeroThree";
 
 const QuemSomos = () => {
     
     return (
         <>
-            
+            <HeroTwo/>
             <HeroFive/>
+            <HeroThree/>
             <HeroSix/>
             <HeroEight/>
             <HeroSeven/>

@@ -6,7 +6,7 @@
     text-align: center;
     color: white;
     z-index: 10;
-    background-image: url("../../../assets/images/bg-yellow.png");
+    background-image: url("../../../../assets/images/bg-yellow.png");
     background-size: cover;
     width: calc(100% + 25px);
 }
@@ -22,12 +22,10 @@
 
 .hero-four h1 {
     font-weight: 700;
-    font-size: 67px;
     z-index: 10;
 }
 .hero-four p {
     font-weight: 400;
-    font-size: 21px;
     line-height: 150%;
     z-index: 10;
     width: 544px;
