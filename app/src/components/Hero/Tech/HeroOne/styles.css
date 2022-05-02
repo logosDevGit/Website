@@ -1,0 +1,17 @@
+.hero-one.tech {
+    background-image: url('../../../../assets/images/bg-tech.jpg');
+}
+
+.hero-one.tech .info {
+    max-width: 739px;
+}
+
+.hero-one.tech .gradient-line{
+    background: linear-gradient(360deg, var(--tech-primary) 0%, rgba(215, 64, 97, 0) 100%);
+    height: 72px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
