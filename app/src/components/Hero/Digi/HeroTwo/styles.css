@@ -1,0 +1,7 @@
+.hero-two.digi {
+    background-color: var(--digi-secondary);
+}
+
+.hero-two.digi h1 {
+    color: var(--digi-primary);
+}

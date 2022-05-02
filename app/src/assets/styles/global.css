@@ -24,6 +24,11 @@ font-family: 'Roboto', sans-serif; - Text
     --help-primary: #F37A29;
     --help-secondary: #BED441;
     --help-tertiary: #6D5B97;
+
+    /* DIGI COLOR */
+    --digi-primary: #6D5B97;
+    --digi-secondary: #D74061;
+    --digi-tertiary: #FCB239;
 }
 
 * {
