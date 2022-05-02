@@ -1,7 +1,7 @@
-.hero-two.infra {
-    background-color: var(--infra-primary);
+.hero-two.help {
+    background-color: var(--help-primary);
 }
 
-.hero-two.infra h1 {
-    color: var(--infra-secondary);
+.hero-two.help h1 {
+    color: var(--help-secondary);
 }
