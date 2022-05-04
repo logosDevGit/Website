@@ -35,7 +35,7 @@ const HeroFive = () => {
       <div className='bg-purple'></div>
       <div className='wd-cont'>
         <div className='method'>
-          <h2>Nossa metodologia</h2>
+          <h2 className='pt-5 pb-3'>Nossa metodologia</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           <div>
             <div className='cards'>
