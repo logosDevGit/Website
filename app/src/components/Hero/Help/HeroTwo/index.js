@@ -5,7 +5,7 @@ import Ideia from "../../../../assets/icons/ideia.svg"
 import Globe from "../../../../assets/icons/globe.svg"
 const HeroTwo = () => {
   return (
-    <div className="hero-two">
+    <div className="hero-two help">
       <div className='wd-cont d-flex justify-content-center flex-column'>
         <h1>O QUE FAZEMOS</h1>
         <p>Nosso foco é o desenvolvimento de projetos Educacionais e gestão do conhecimento por meio de AVAs (Ambientes Virtuais de Aprendizagem), treinamentos, cursos e estratégias de gamificação.</p>

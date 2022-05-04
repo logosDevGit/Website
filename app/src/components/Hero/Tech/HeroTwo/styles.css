@@ -1,0 +1,7 @@
+.hero-two.tech {
+    background-color: var(--tech-primary);
+}
+
+.hero-two.tech h1 {
+    color: var(--tech-secondary);
+}

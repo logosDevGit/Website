@@ -1,0 +1,7 @@
+.hero-two.help {
+    background-color: var(--help-primary);
+}
+
+.hero-two.help h1 {
+    color: var(--help-secondary);
+}
