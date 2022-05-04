@@ -1,0 +1,27 @@
+.hero-five.edu .method p {
+    color: #1D1D1B;
+    max-width: 737px;
+    margin: 20px auto;
+    line-height: 120%;
+}
+
+.hero-five.edu .method h2 {
+    padding-top: 50px;
+    color: var(--edu-secondary);
+}
+.hero-five.edu .method h3 {
+    color: var(--edu-secondary);
+}
+
+.hero-five.edu .method .cards {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-five.edu .method .cards img {
+    margin-top: 40px;
+    max-width: 204px;
+    max-height: 204px;
+}
