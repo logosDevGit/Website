@@ -1,0 +1,7 @@
+.hero-two.edu {
+    background-color: var(--edu-primary);
+}
+
+.hero-two.edu h1 {
+    color: var(--edu-tertiary);
+}

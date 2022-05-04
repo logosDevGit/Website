@@ -1,0 +1,79 @@
+.hero-five.edu {
+    position: relative;
+}
+
+.hero-five.edu .bg-purple {
+    position: absolute;
+    width: 100vw;
+    height: 378px;
+    background-color: #6D5B97;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    z-index: 0;
+}
+
+.hero-five.edu p {
+    color: #1D1D1B;
+    max-width: 737px;
+    margin: 20px auto;
+    line-height: 120%;
+}
+
+.hero-five.edu .method h3 {
+    color: var(--edu-secondary) !important;
+}
+
+.hero-five.edu .method h2 {
+    color: var(--edu-secondary) !important;
+}
+
+
+.hero-five.edu .method .cards {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-five.edu .method .cards img {
+    margin-top: 40px;
+    max-width: 204px;
+    max-height: 204px;
+}
+
+
+.hero-five.edu .college h2 {
+    padding-top: 80px;
+    color: var(--secondary-color);
+}
+
+.hero-five.edu .college h3 {
+    color: var(--secondary-color);
+    padding: 24px 10px;
+}
+
+.hero-five.edu .college h5 {
+    color: #1D1D1B;
+    padding: 10px;
+}
+
+.hero-five.edu .college .cards {
+    position: relative;
+}
+
+.hero-five.edu .college .react-multi-carousel-track {
+    height: 428px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-five.edu .college .cards .card {
+    box-shadow: 5px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    width: 315.87px;
+    height: 408px;
+    z-index: 1;
+    margin: 0 auto;
+}
