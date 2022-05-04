@@ -31,9 +31,9 @@ font-family: 'Roboto', sans-serif; - Text
     --digi-tertiary: #FCB239;
 
     /* EDU COLOR */
-    --digi-primary: #1180AE;
-    --digi-secondary: #6D5B97;
-    --digi-tertiary: #F37A29;
+    --edu-primary: #1180AE;
+    --edu-secondary: #6D5B97;
+    --edu-tertiary: #F37A29;
 }
 
 * {
