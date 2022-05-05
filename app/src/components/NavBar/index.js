@@ -78,7 +78,7 @@ const NavBar = () => {
                             </Link>
                         </div>
                         <div className='line'></div>
-                        <h1>{pathname.toUpperCase() || "Soluções Educacionais"}</h1>
+                        <h1>{ pathname === "tech" || pathname === 'digi' || pathname === 'infra' || pathname === 'edu' || pathname === 'help!' ? pathname.toUpperCase() : "Soluções Educacionais"}</h1>
                         <button onClick={() => openNav()}><FaBars /></button>
                     </div>
                     <NavSidebar collapse={collapse}  openNav={() => openNav()}/>
