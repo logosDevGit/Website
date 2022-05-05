@@ -3,12 +3,14 @@ import './styles.css'
 import {ReactComponent as Logo} from '../../assets/images/logos/primary.svg';
 import { Input } from "reactstrap";
 import { FaBars } from "react-icons/fa"
-import { Link, useNavigate} from 'react-router-dom';
+import { Link, useNavigate, useLocation} from 'react-router-dom';
 import NavSidebar from '../NavSidebar/index.js';
 
 const NavBar = () => {
 
     const navigate = useNavigate();
+    const location = useLocation();
+    const pathname = location.pathname.slice(1)
 
     const [collapse, setCollpse] = useState(false)
 
@@ -17,7 +19,7 @@ const NavBar = () => {
     }
 
     const goTo = (e) => {
-        const path = e.target.value.toLowerCase()
+        let path = e.target.value.toLowerCase()
         if (path === "equipes") {
             navigate('/')
         } else {
@@ -76,7 +78,7 @@ const NavBar = () => {
                             </Link>
                         </div>
                         <div className='line'></div>
-                        <h1>Soluções Educacionais</h1>
+                        <h1>{pathname.toUpperCase() || "Soluções Educacionais"}</h1>
                         <button onClick={() => openNav()}><FaBars /></button>
                     </div>
                     <NavSidebar collapse={collapse}  openNav={() => openNav()}/>
