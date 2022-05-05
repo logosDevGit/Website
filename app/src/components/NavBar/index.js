@@ -3,15 +3,26 @@ import './styles.css'
 import {ReactComponent as Logo} from '../../assets/images/logos/primary.svg';
 import { Input } from "reactstrap";
 import { FaBars } from "react-icons/fa"
-import { Link } from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import NavSidebar from '../NavSidebar/index.js';
 
 const NavBar = () => {
+
+    const navigate = useNavigate();
 
     const [collapse, setCollpse] = useState(false)
 
     const openNav = () => {
         setCollpse(!collapse)
+    }
+
+    const goTo = (e) => {
+        const path = e.target.value.toLowerCase()
+        if (path === "equipes") {
+            navigate('/')
+        } else {
+            navigate(path)
+        }
     }
 
     return (
@@ -28,6 +39,7 @@ const NavBar = () => {
                                 <Input
                                     bsSize="lg"
                                     type="select"
+                                    onChange={e => goTo(e)}
                                 >
                                     <option>
                                         Equipes
