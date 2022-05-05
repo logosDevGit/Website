@@ -3,15 +3,28 @@ import './styles.css'
 import {ReactComponent as Logo} from '../../assets/images/logos/primary.svg';
 import { Input } from "reactstrap";
 import { FaBars } from "react-icons/fa"
-import { Link } from 'react-router-dom';
+import { Link, useNavigate, useLocation} from 'react-router-dom';
 import NavSidebar from '../NavSidebar/index.js';
 
 const NavBar = () => {
+
+    const navigate = useNavigate();
+    const location = useLocation();
+    const pathname = location.pathname.slice(1)
 
     const [collapse, setCollpse] = useState(false)
 
     const openNav = () => {
         setCollpse(!collapse)
+    }
+
+    const goTo = (e) => {
+        let path = e.target.value.toLowerCase()
+        if (path === "equipes") {
+            navigate('/')
+        } else {
+            navigate(path)
+        }
     }
 
     return (
@@ -28,6 +41,7 @@ const NavBar = () => {
                                 <Input
                                     bsSize="lg"
                                     type="select"
+                                    onChange={e => goTo(e)}
                                 >
                                     <option>
                                         Equipes
@@ -64,7 +78,7 @@ const NavBar = () => {
                             </Link>
                         </div>
                         <div className='line'></div>
-                        <h1>Soluções Educacionais</h1>
+                        <h1>{ pathname === "tech" || pathname === 'digi' || pathname === 'infra' || pathname === 'edu' || pathname === 'help!' ? pathname.toUpperCase() : "Soluções Educacionais"}</h1>
                         <button onClick={() => openNav()}><FaBars /></button>
                     </div>
                     <NavSidebar collapse={collapse}  openNav={() => openNav()}/>
